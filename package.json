@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Projeto criado com função de desenvolver um sistema de cadastros de suspeitos envolvidos em uma investigação de um caso altamente confidencial envolvendo um famoso rapper internacional",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/server.js"
   },
   "keywords": [
     "Rapper",
